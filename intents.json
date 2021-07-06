@@ -1,0 +1,289 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon." ]
+    },
+    {
+      "tag": "100",
+      "patterns": ["100", "Product 100", "My product ID is 100"],
+      "responses": [
+        "Your product is Panadol.Write your bargaining price pls!",
+        "Product= panadaol,Specify your price",
+        "Product is Panadol,Tell me the price your willingy to paY"]
+    },
+    {
+      "tag": "Fine",
+      "patterns": ["350", "320", "330","340","360","370","380","1000000","300"],
+      "responses": [
+        "This price is a bit less but i can do it. It has been added to your cart",
+        "huh, seems pretty low but let me see if i can do anything.Looks ok,locking it in",
+        "THAT price seems understandable,Locking it in",
+        "Now thats reasonable, Locking the price in, in your cart",
+        "Thankyou for inputing a reasonable price, Locking it in"]
+      },
+      {
+        "tag": "too_less 100",
+        "patterns": ["290", "280", "260","240","220","200","190","180","100"],
+        "responses": [
+          "This price is out of my range, Enter something more reasonable",
+          "sORRY dear customer, this price is less than the cost price, cant do it",
+          "I am very sory but this price is not good enough",
+          "I sincerely apoligize, this price is just too low"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you have?"
+      ],
+      "responses": [
+        "We sell medicines and other medical equipment!",
+        "Our stocks include anything related to medicine",
+        "Our stores sell the finest and cheapest medicines"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"]
+    },
+    {
+      "tag": "common cold",
+      "patterns": [
+        "Cold and cough medicines",
+        "Medicines for cold and cough.",
+        "What are the medicines of common cold and cough?",
+        "Do you know any medicines for cold and cough??"
+      ],
+      "responses": [
+       "Medicines include Ibuprofen and Acetaminophen.Type 111 to buy"]
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "Headache  medicines",
+        "Medicines for headaches.",
+        "What are the medicines of headaches?",
+        "Do you know any medicines for headaches?"
+      ],
+      "responses": [
+        "Medicines include asprin and panadol which ae included in our site. Type 100 to buy"]
+    },
+    {
+      "tag": "chickenpox",
+      "patterns": [
+        "Chickenpox  medicines",
+        "Medicines for Chickenpox.",
+        "What are the medicines of Chickenpox?",
+        "Do you know any medicines for chickenpox?"
+      ],
+      "responses": [
+        "Medicines include acyclovir  which ae included in our site. Type 108 to buy"  ]
+    },
+    {
+      "tag": "Stomach ache",
+      "patterns": [
+        "stomach ache  medicines",
+        "Medicines for stomach ache.",
+        "What are the medicines of stomach ache?",
+        "Do you know any medicines for stomach ache?"
+      ],
+      "responses": [
+        "Medicines include  loperamide  which ae included in our site. Type 103 to buy"]
+    },
+    {
+      "tag": "kidney stones",
+      "patterns": [
+        "I am having fever, nausea and blood in my urine",
+        "I am experiencing nausea, fever and blood in my urine.",
+        "blood in my urine and a mild fever"
+      ],
+      "responses": [
+        "The symptoms lead to a analysis of kidney stones, Please visit a doctor immediatly"]
+    },
+    {
+      "tag": "Diabeties",
+      "patterns": [
+        "I feel hungry and thirsty always and have nausea and a lot of vommiting",
+        "I have nausea, a dry mouh always and numbness "
+      ],
+      "responses": [
+        "My diagnosis is leading me to belive you may have type 2 diabeties, try to visit a doctor"]
+  },
+    {
+      "tag": "nearest_hospital",
+      "patterns": [
+        "Hospital near me",
+        "Nearest hospital.",
+        "any hospital near me?",
+        "Hospitals that are close"
+      ],
+      "responses": [
+        "https://www.okadoc.com/"]
+    },
+    {
+      "tag": "111",
+      "patterns": [
+        "111 ",
+        "Product ID 111",
+        "My product is 111",
+        "ID is 111"
+      ],
+      "responses": [
+        "Is your product the Ibuprofen medicine?, Eneter price you would like to bargain. "]
+    },
+    {
+      "tag": "too_less 111",
+      "patterns": [
+        "90 ",
+        "70",
+        "60",
+        "80",
+        "50"
+      ],
+      "responses": [
+        "This price is less than my range, Enter something more reasonable",
+        "SORRY dear customer, this price is less than the cost price, cant do it",
+        "I am very sory but this price is not good enough",
+        "I sincerely apoligize, this price is just too low"]
+    },
+    {
+      "tag": "Symptoms_Covid",
+      "patterns": [
+        "Do I have Covid-19? ",
+        "Symptoms for covid",
+        "Sympotoms covid-19",
+        "Have i been affected by covid?",
+        "I think I have covid"
+      ],
+      "responses": [
+        "Do you have symptoms such as fever,dry cough,tiredness, sore throat, headache, loss of taste or smell ",
+        "Symptoms include fever, dry cough, tirdness, sore throat, headche, sore throat. Do you have them?"]
+    },
+    {
+      "tag": "No COvid",
+      "patterns": [
+        "No I dont ",
+        "I do not ahve any symptoms",
+        "I dont have symptoms",
+        "Na",
+        "No sir"
+      ],
+      "responses": [
+        "You have a less chance of having covid but still wear MASKS and STAY SAFE STAY HEALTHY"]
+    },
+    {
+      "tag": "Yes_Covid",
+      "patterns": [
+        "Yes, I do have these symptoms ",
+        "Yeah",
+        "I have symptoms of covid",
+        "Yes sir",
+        "I do have symptoms"
+      ],
+      "responses": [
+        "I would reccomend you to get a COvid-19 test and go to the nearest covid center",
+        "I reccomend you to go to the nearest covid center As SOON AS POSSIBLE" ]
+    },
+    {
+      "tag": "too_less 111",
+      "patterns": [
+        "90 ",
+        "70",
+        "60",
+        "80",
+        "50"
+      ],
+      "responses": [
+        "This price is less than my range, Enter something more reasonable",
+        "SORRY dear customer, this price is less than the cost price, cant do it",
+        "I am very sory but this price is not good enough",
+        "I sincerely apoligize, this price is just too low"]
+      
+    },
+    {
+      "tag": "Fine 111",
+      "patterns": [
+        "100 ",
+        "110",
+        "120",
+        "130",
+        "140"
+      ],
+      "responses": [
+        "This price is a bit less but i can do it. It has been added to your cart",
+        "huh, seems pretty low but let me see if i can do anything.Looks ok,locking it in",
+        "THAT price seems understandable,Locking it in",
+        "Now thats reasonable, Locking the price in, in your cart",
+        "Thankyou for inputing a reasonable price, Locking it in"]  
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "cart",
+      "patterns": [
+        "Show me my cart",
+        "cart",
+        "items in my cart"
+      ],
+      "responses": [
+        "1 item = a. Panadol(100)",
+        "Cart has (1) ITEMS a.Panadol(100)"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What did the vowels say to teh constnat when they borrowed some money, I O U"]
+    }
+  ]
+}
